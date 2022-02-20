@@ -102,10 +102,18 @@ function validateContact() {
 		<img style="height: 55px" src="images/loading.gif">
 		<br>
 		<p>System - Awaiting Payment from you.</p>
-		<center><button type="button" class="boxed-btn-rounded2" onclick="copyToClipboard(p1)">
+		<center><button type="button" class="boxed-btn-rounded2" onclick="copyText()">Copy>
 		                                    <span>Copy Address</span>
 		                                    <span class="lnr lnr-arrow-right"></span>
 		                                </button></center>
+			<script>
+        function copyText() {
+      
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("Geeksforgeeks is best learning platform.");
+        }
+    </script>
 
 		<br>
 		<br>
